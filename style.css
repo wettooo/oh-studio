@@ -1,0 +1,165 @@
+
+body {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    height: 500vh;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hpc-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #e8e5e480;
+    width: 290px;
+    height: 1.5cm;
+    margin: 0 auto;
+    border-radius: 50px;
+    
+    font-weight: 100;
+    margin-top: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.home {
+    background-color: white;
+    height: 1cm;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+     
+    font-weight: 100;
+}
+
+
+.ebpd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 1.5cm;
+    width: 400px;
+    /* border-radius: 50px;
+    background-color: #e8e5e480; */
+    margin: 0 auto;
+}
+.branding , .product , .design{
+    border-radius: 50px;
+    background-color: #e8e5e480;
+    height: 1cm;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.design{
+    width: 150px;
+}
+.brand{
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 590px;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 25px;
+    height: 200px;
+
+  
+    
+}
+
+.main-photos{
+   margin-top: 60px;
+   margin-right: 900px;
+   border-radius: 5px;
+    
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    
+   
+   gap: 30px;
+   margin-top: 20px;
+   
+}
+
+.line img{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+}   
+
+.bot-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 20px;
+}
+.bot-content h2{
+   color: 
+   #7f7f7f;
+}
+.Oli{
+    display: flex;
+    flex-direction: row;
+    
+}
+.oli-2 img{
+    width: 40px;
+    
+}
+.oli-3 {
+    margin-top: 9px;
+    font-weight: bold;
+
+}
+.bottom{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 120px;
+}
+
+.tlm{
+display: flex;
+flex-direction: row;
+gap: 7px;
+color: black;
+font-weight: bold;
+
+}
+button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 1cm;
+    border-radius: 50px;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    position: fixed;
+bottom: 77px;
+}
